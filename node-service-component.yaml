@@ -6,6 +6,8 @@ metadata:
   tags:
     - java
     - data
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   links:
     - url: https://example.com/user
       title: Examples Users
@@ -35,5 +37,3 @@ spec:
   system: artist-engagement-portal
   dependsOn: ['resource:artists-db']
   apiConsumedBy: ['component:www-artist']
-annotations:
-  backstage.io/techdocs-ref: dir:.
